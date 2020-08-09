@@ -5,17 +5,17 @@ MiDaS_model_ckpt: MiDaS/model.pt
 fps: 40
 num_frames: 240
 x_shift_range: [0.00]
-y_shift_range: [0.00]
-z_shift_range: [-0.05]
-traj_types: ['double-straight-line']
-video_postfix: ['zoom-in']
+y_shift_range: [-0.05]
+z_shift_range: [-0.12]
+traj_types: ['straight-line']
+video_postfix: ['subtle-zoom-in']
 specific: ''
 longer_side_len: 960
 src_folder: /content/drive/My Drive/3d/source
 depth_folder: /content/drive/My Drive/3d/depth
 mesh_folder: /content/drive/My Drive/3d/mesh
 video_folder: /content/drive/My Drive/3d/video
-load_ply: False
+load_ply: True
 save_ply: True
 inference_video: True
 gpu_ids: 0
